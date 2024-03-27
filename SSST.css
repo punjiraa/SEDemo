@@ -1,0 +1,230 @@
+body {
+    font-family:'Sarabun';
+  background-image: url('img6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container1{
+    max-width:1400px;
+    margin: 0 auto;
+    border: 1px ;
+}
+nav{
+    background: #721c95;
+    
+    
+}
+
+.nav1{
+    background-color:  #FFCD00;
+    position: center;
+    top: 0px;
+    left: 0px;        
+    width: 1500px;
+    height: 90px;
+    padding-right:100px no-repeat;
+    padding-bottom: 10px no-repeat;
+    box-shadow: inset 0px 50px 8px #888888;
+    margin-bottom: 40px;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px
+}
+
+.navbar1 ul{
+list-style-type: none;
+background-color: #721c95;
+padding: 0px;
+margin: 0px;
+overflow: hidden; 
+}
+.navbar1 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar1 a:hover{
+    background-color: #fff;
+    color: var(--main-color);
+}
+.navbar1 li{
+    float: left;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 1rem;
+}
+a {
+    color: #fff;
+    text-decoration:none ;
+
+}
+
+.logo a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 360px) {
+
+.logo{
+    margin-bottom: 1.5rem ;
+}
+.nav-con {
+    padding: 1.5rem 0;
+    flex-direction: column ;
+    height: auto;
+}
+
+.memu{
+    width:100% ;
+    text-align: center;
+    flex-direction: column;
+}
+
+.menu li{
+    padding: 1rem 0 ;
+    margin-left: 0;
+    transition: 0.5s ;
+}
+
+.menu li:nover {
+    background: #222 ;
+
+}
+.navbar {
+    background-color: #FFCD00;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 2rem auto;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+label.text-center {
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+}
+
+label.text-muted {
+    color: #6c757d;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col{
+    font-size: 20px;
+    text-align: left;
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left; 
+}
+
+.form-input-label,.form-group {
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-control {
+    font-size: 16px; 
+    padding: 1.25px;
+    text-align: left;
+    width: 330px; 
+}
+.form-control1 {
+    font-size: 16px; 
+    padding: 1.25px;
+    text-align: left;
+    width: 290px; 
+}
+.form-control2 {
+    font-size: 16px; 
+    padding: 1.25px;
+    text-align: left;
+    width: 315px; 
+}
+
+.btn-success,.btn-danger {
+    font-size: 1rem; 
+    padding: 0.75rem 1.5rem; 
+    color: #fff!important;
+    background-color: #721c95;
+    border-radius: 5px;
+    margin: 2rem;
+    text-decoration: none!important;
+}
+
+.btn-success:hover,.btn-danger:hover {
+    filter: brightness(90%);
+}
+
+.btn-danger,a:visited{
+    font-size: 1rem; 
+    padding: 0.75rem 1.5rem; 
+    color: #fff!important;
+    background-color: #721c95;
+    border-radius: 5px;
+    margin: 2rem;
+    text-decoration: none!important;
+}
+
+a{
+    text-decoration: none!important;
+}
+.container3 {
+    display: flex;
+    justify-content: center; /* จัดกรอบให้อยู่ตรงกลางในแนวนอน */
+    align-items: center; /* จัดกรอบให้อยู่ตรงกลางในแนวตั้ง */
+    width: 300px; /* ปรับความกว้างของกรอบ */
+    height: 30px; /* ปรับความสูงของกรอบ */
+    margin: 3%;
+}
+h2 {
+    border: 2px solid #FFCD00; /* สีเหลือง */
+    background-color: #FFCD00; /* สีเหลืองอ่อน */
+    padding: 10px; /* ปรับระยะห่างของข้อความภายในกรอบ */
+    border-radius: 20px; /* กำหนดรูปร่างของกรอบเป็นทรงแคปซูล */
+}
